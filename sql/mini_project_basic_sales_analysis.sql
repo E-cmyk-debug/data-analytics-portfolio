@@ -1,0 +1,6 @@
+-- Mini Project: Basic Sales Analysis using SQL
+-- Dataset: Superstore Sales Dataset (reference)
+-- Objective: Analyse retail sales data using SQL
+-- Table name assumed: sales
+-- Columns used: order_id, order_date, customer_id, customer_name, segment, country, city, region, category, sub_category, product_name, sales
+-- Concepts used: SELECT, WHERE, GROUP BY, HAVING, ORDER BY, LIMIT
