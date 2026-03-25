@@ -51,21 +51,17 @@ The goal of this project is to transform raw sales data into meaningful insights
 <img width="1783" height="778" alt="image" src="https://github.com/user-attachments/assets/7ee72248-689d-447a-84d6-e6dd159f2b13" />
 
 ## Project Structure
-sales-dashboard/
-│── Sales_Dashboard.xlsx
-│── dataset.csv
-│── dashboard.png
-│── README.md
+sales-dashboard/Sales_Dashboard.xlsx/dataset.csv/dashboard.png/README.md
 
 ## How to Use
-Download the Excel file
-Open in Microsoft Excel
-Use slicers to filter by Region and Category
-Explore trends and insights interactively
+* Download the Excel file
+* Open in Microsoft Excel
+* Use slicers to filter by Region and Category
+* Explore trends and insights interactively
 
 ## Key Learnings
-Built end-to-end data analysis workflow (cleaning → analysis → visualization)
-Improved understanding of Pivot Tables and dashboard design
-Learned how to derive business insights from raw data
-Developed the ability to present data in a clear and interactive format
+* Built end-to-end data analysis workflow (cleaning → analysis → visualization)
+* Improved understanding of Pivot Tables and dashboard design
+* Learned how to derive business insights from raw data
+* Developed the ability to present data in a clear and interactive format
 
