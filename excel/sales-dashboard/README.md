@@ -1,67 +1,89 @@
 # Sales Performance Dashboard (Excel)
 
 ## Overview
+This project builds an interactive Sales Performance Dashboard in Microsoft Excel using Pivot Tables, Pivot Charts, and Slicers — demonstrating that meaningful business intelligence can be built without specialist BI tools.
 
-This project presents an interactive **Sales Performance Dashboard** built using Microsoft Excel to analyse sales performance across regions, categories, customers, and time.
+> **Note:** This project uses the same Superstore dataset as my E-commerce Sales Analysis (SQL) and Sales Performance Dashboard (Power BI) projects. Each project demonstrates a different skill set — SQL for querying and data extraction, Power BI for advanced interactive visuals, and Excel for accessible, formula-driven dashboards.
 
-The goal of this project is to transform raw sales data into meaningful insights that support business decision-making.
 
 ## Business Questions
-1. Total Sales distribution across different regions?
-2. How do sales vary across different product categories?
-3. What is the monthly trend of sales over time?
-4. Who are the top customers contributing to overall sales?
-5. How does profit vary across regions and product categories?
-6. What is the percentage contribution of each category to total sales?
-   
-## Tools & Techniques Used
+1. Which regions contribute the most to total sales?
+2. How does sales share vary across product categories?
+3. What is the monthly sales trend throughout the year?
+4. Who are the top 10 customers by total sales?
+5. How does profit vary across regions and categories?
+6. Where are the low-margin or loss-risk areas?
 
-* Microsoft Excel
-* Pivot Tables & Pivot Charts
-* Slicers (for interactivity)
-* Data Cleaning & Validation
-* KPI Design
+
+## Tools & Techniques
+- Microsoft Excel
+- Pivot Tables & Pivot Charts
+- Slicers (Region, Category filters)
+- KPI Card Design
+- Data Cleaning & Validation
+
 
 ## Key Metrics
+| Metric | Value |
+|---|---|
+| Total Sales | $2,297,201 |
+| Total Profit | $286,397 |
+| Total Orders | 5,009 |
+| Profit Margin | 12.47% |
+| Average Order Value | $459 |
 
-* **Total Sales:** $2.29M
-* **Total Profit:** $286K
-* **Total Orders:** 9,994
-* **Profit Margin:** 12.47%
-* **Average Order Value:** $459
 
 ## Dashboard Features
+- KPI header row (Sales, Profit, Orders, Margin, AOV)
+- Sales by Region (bar chart)
+- Sales Contribution by Category (% bar chart)
+- Monthly Sales Trend (line chart)
+- Profit by Region and Category (grouped bar chart)
+- Top 10 Customers by Sales (table)
+- Interactive slicers for Region and Category
 
-* Region-wise Sales Analysis
-* Category-wise Contribution (%)
-* Monthly Sales Trend Analysis
-* Top Customers by Sales
-* Profit Analysis by Region & Category
-* Interactive filtering using slicers (Region, Category)
 
-## 🔍 Key Insights
+## Key Insights
 
-* The **West region** generates the highest sales among all regions
-* The Technology category contributes the largest share (~36%) of total sales
-* Sales show seasonal peaks in March, September, and November
-* Some regions show high sales but relatively lower profit, indicating margin differences
-* Business can focus on expanding high-performing categories and optimizing low-margin segments
+**Regional Performance**
+- West leads all regions with **$725,457** in sales, followed by East at **$678,781**
+- Central is the weakest region at **$501,239** — and from the profit breakdown, Central also shows the lowest profit across all categories
+
+**Category Performance**
+- Technology holds the largest share at **36.4%** of total sales
+- Furniture and Office Supplies are nearly equal at 32.3% and 31.3% — But profit by category reveals Furniture significantly underperforms (visible in the Profit by Region and Category chart)
+
+**Monthly Trend**
+- Sales peak in **March, September, and November**, suggesting seasonal buying cycles — likely aligned with business procurement and year-end budgets
+- February is the lowest month, with sales dipping below $125K
+
+**Top Customers**
+- **Sean Miller** is the #1 customer at **$25,043**
+- The top 10 customers together account for **$153,811** in sales — about 6.7% of total revenue from just 10 buyers
+
 
 ## Dashboard Preview
-<img width="1783" height="778" alt="image" src="https://github.com/user-attachments/assets/7ee72248-689d-447a-84d6-e6dd159f2b13" />
+<img width="1787" height="779" alt="dashboard" src="https://github.com/user-attachments/assets/b70ed1e2-9e4b-4462-8659-edd5600cacd2" />
+
 
 ## Project Structure
-sales-dashboard/Sales_Dashboard.xlsx/dataset.csv/dashboard.png/README.md
+sales-dashboard/
+├── Sales_Dashboard.xlsx
+├── dataset.csv
+├── dashboard.png
+└── README.md
 
 ## How to Use
-* Download the Excel file
-* Open in Microsoft Excel
-* Use slicers to filter by Region and Category
-* Explore trends and insights interactively
+1. Download `Sales_Dashboard.xlsx`
+2. Open in Microsoft Excel (2016 or later recommended)
+3. Use the Region and Category slicers to filter all charts simultaneously
+4. KPI cards at the top update automatically with slicer selections
+
 
 ## Key Learnings
-* Built end-to-end data analysis workflow (cleaning → analysis → visualization)
-* Improved understanding of Pivot Tables and dashboard design
-* Learned how to derive business insights from raw data
-* Developed the ability to present data in a clear and interactive format
-
+- Built a fully interactive dashboard without any BI tool — using only 
+  native Excel features
+- Designed KPI cards and chart layouts with readability and business 
+  context in mind
+- Reinforced understanding of how the same dataset tells different stories 
+  Depending on the tool and the questions asked
